@@ -1,0 +1,235 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "fullname": "John Doe"
+    },
+    {
+      "id": "2",
+      "avatar": "https://api.adorable.io/avatars/400/66ca59ef137daac68bdf985a1659179f.png",
+      "fullname": "Jane Doe"
+    },
+    {
+      "id": "3",
+      "avatar": "https://api.adorable.io/avatars/400/1c8e8a6e8d1fe52b782b280909abeb38.png",
+      "fullname": "Johny Doe"
+    },
+    {
+      "id": "4",
+      "avatar": "https://api.adorable.io/avatars/400/fe6c9582299e88feff95a081f82862ba.png",
+      "fullname": "Baby Doe"
+    },
+    {
+      "id": "5",
+      "avatar": null,
+      "fullname": "Janie Doe"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "title": "Cultura",
+      "subcategories": [
+        { "id": "11", "title": "Museos" },
+        { "id": "12", "title": "Exposiciones" },
+        { "id": "13", "title": "Cine" },
+        { "id": "14", "title": "Teatro" }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Deportes",
+      "subcategories": [
+        { "id": "21", "title": "Ajedrez" },
+        { "id": "22", "title": "Baloncesto" },
+        { "id": "23", "title": "Fútbol Sala" },
+        { "id": "24", "title": "Pádel" },
+        { "id": "25", "title": "Tenis" },
+        { "id": "26", "title": "Voley" }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Idiomas",
+      "subcategories": [
+        { "id": "31", "title": "Inglés" },
+        { "id": "32", "title": "Alemán" },
+        { "id": "33", "title": "Portugués" }
+      ]
+    },
+    { "id": "4", "title": "Miscelánea", "subcategories": [] },
+    {
+      "id": "5",
+      "title": "Viajes",
+      "subcategories": [
+        { "id": "51", "title": "Senderismo" },
+        { "id": "52", "title": "Playa" }
+      ]
+    }
+  ],
+  "subscriptions": [
+    { "category_id": "1", "title": "Cultura" },
+    { "category_id": "3", "title": "Idiomas" },
+    { "category_id": "21", "title": "Ajedrez" },
+    { "category_id": "24", "title": "Pádel" }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "title": "Ciclo de peliculas de Charlie Chaplin",
+      "description": "Quedada en la Filmoteca de Andalucía",
+      "created_at": "2020-08-12T18:25:43.511Z",
+      "closed_at": null,
+      "ends_at": null,
+      "status": "open",
+      "category_id": "1",
+      "category_title": "Cultura",
+      "subcategory_id": "13",
+      "subcategory_title": "Cine",
+      "owner_id": "1",
+      "owner_fullname": "John Doe",
+      "owner_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png"
+    },
+    {
+      "id": "2",
+      "title": "Partido de Pádel",
+      "description": "Quedar todos los martes tarde para jugar al pádel",
+      "created_at": "2020-08-04T08:45:13.511Z",
+      "closed_at": null,
+      "ends_at": "2020-10-24T08:45:13.511Z",
+      "status": "open",
+      "category_id": "2",
+      "category_title": "Deportes",
+      "subcategory_id": "24",
+      "subcategory_title": "Pádel",
+      "owner_id": "2",
+      "owner_fullname": "Jane Doe",
+      "owner_avatar": "https://api.adorable.io/avatars/400/66ca59ef137daac68bdf985a1659179f.png"
+    },
+    {
+      "id": "3",
+      "title": "Quedada intercambio de idiomas",
+      "description": "Quedar en la cafetería de la Facultad de Filosofía para hablar en Portugués con ERASMUS",
+      "created_at": "2020-08-05T12:35:13.511Z",
+      "closed_at": "2020-08-10T12:35:13.511Z",
+      "ends_at": null,
+      "status": "closed",
+      "category_id": "3",
+      "category_title": "Idiomas",
+      "subcategory_id": "33",
+      "subcategory_title": "Portugués",
+      "owner_id": "3",
+      "owner_fullname": "Johny Doe",
+      "owner_avatar": "https://api.adorable.io/avatars/400/1c8e8a6e8d1fe52b782b280909abeb38.png"
+    },
+    {
+      "id": "4",
+      "title": "Senderismo por Baños de Popea",
+      "description": "Todos los domingos a las 8 de la mañana",
+      "created_at": "2020-08-05T12:35:13.511Z",
+      "closed_at": "2020-08-10T12:35:13.511Z",
+      "ends_at": null,
+      "status": "closed",
+      "category_id": "5",
+      "category_title": "Viajes",
+      "subcategory_id": "51",
+      "subcategory_title": "Senderismo",
+      "owner_id": "5",
+      "owner_fullname": "Janie Doe",
+      "owner_avatar": null
+    }
+  ],
+  "registrations": [
+    {
+      "id": "1",
+      "activity_id": "2",
+      "activity_title": "Partido de Pádel",
+      "activity_owner_id": "2",
+      "activity_owner_fullname": "Jane Doe",
+      "activity_owner_avatar": "https://api.adorable.io/avatars/400/66ca59ef137daac68bdf985a1659179f.png",
+      "user_id": "1",
+      "user_fullname": "John Doe",
+      "user_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "status": "pending",
+      "contact_info": null,
+      "created_at": "2020-08-13T14:15:13.511Z",
+      "updated_at": "2020-08-13T14:15:13.511Z"
+    },
+    {
+      "id": "2",
+      "activity_id": "3",
+      "activity_title": "Quedada intercambio de idiomas",
+      "activity_owner_id": "3",
+      "activity_owner_fullname": "Johny Doe",
+      "activity_owner_avatar": "https://api.adorable.io/avatars/400/1c8e8a6e8d1fe52b782b280909abeb38.png",
+      "user_id": "1",
+      "user_fullname": "John Doe",
+      "user_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "status": "accepted",
+      "contact_info": ["tg.me/de-pelis"],
+      "created_at": "2020-08-13T20:34:43.511Z",
+      "updated_at": "2020-08-14T09:09:43.511Z"
+    },
+    {
+      "id": "3",
+      "activity_id": "4",
+      "activity_title": "Senderismo por Baños de Popea",
+      "activity_owner_id": "5",
+      "activity_owner_fullname_id": "Janie Doe",
+      "activity_owner_avatar": null,
+      "user_id": "1",
+      "user_fullname": "John Doe",
+      "user_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "status": "rejected",
+      "contact_info": null,
+      "created_at": "2020-08-14T22:55:43.511Z",
+      "updated_at": "2020-08-15T08:15:43.511Z"
+    },
+    {
+      "id": "4",
+      "activity_id": "1",
+      "activity_title": "Ciclo de peliculas de Charlie Chaplin",
+      "activity_owner_id": "1",
+      "activity_owner_fullname_id": "John Doe",
+      "activity_owner_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "user_id": "2",
+      "user_fullname": "Jane Doe",
+      "user_avatar": "https://api.adorable.io/avatars/400/66ca59ef137daac68bdf985a1659179f.png",
+      "status": "pending",
+      "contact_info": null,
+      "created_at": "2020-08-13T14:15:13.511Z",
+      "updated_at": "2020-08-13T14:15:13.511Z"
+    },
+    {
+      "id": "5",
+      "activity_id": "1",
+      "activity_title": "Ciclo de peliculas de Charlie Chaplin",
+      "activity_owner_id": "1",
+      "activity_owner_fullname_id": "John Doe",
+      "activity_owner_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "user_id": "3",
+      "user_fullname": "Johny Doe",
+      "user_avatar": "https://api.adorable.io/avatars/400/1c8e8a6e8d1fe52b782b280909abeb38.png",
+      "status": "accepted",
+      "contact_info": ["tg.me/de-pelis"],
+      "created_at": "2020-08-13T20:34:43.511Z",
+      "updated_at": "2020-08-14T09:09:43.511Z"
+    },
+    {
+      "id": "6",
+      "activity_id": "1",
+      "activity_title": "Ciclo de peliculas de Charlie Chaplin",
+      "activity_owner_id": "1",
+      "activity_owner_fullname_id": "John Doe",
+      "activity_owner_avatar": "https://api.adorable.io/avatars/400/b2e133f84e5d20843ec9e6acbc7d0820.png",
+      "user_id": "5",
+      "user_fullname": "Janie Doe",
+      "user_avatar": null,
+      "status": "rejected",
+      "contact_info": null,
+      "created_at": "2020-08-14T22:55:43.511Z",
+      "updated_at": "2020-08-15T08:15:43.511Z"
+    }
+  ]
+}

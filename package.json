@@ -1,0 +1,12 @@
+{
+  "name": "nosfaltauno-fake-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  },
+  "scripts": {
+    "start": "json-server --watch config/db.json --routes config/routes.json -p 5000"
+  }
+}
